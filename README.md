@@ -21,7 +21,7 @@ Our main objective in this project was the design of a scheme / architecture for
 
 ## The proposed Architecture
 
-![img connection](Screenshots/architecture/use-case-smart-hotel.PNG)
+![img connection](Screenshots/architecture/architecture-system.PNG)
 
 ## Smart hotel Features :heavy_check_mark:
 * Easy reservation and access to rooms using your personal smartphone.
@@ -67,16 +67,31 @@ Our main objective in this project was the design of a scheme / architecture for
 * Relay Module (Motor Shield Relay MD10)
 * Electric Smart Lock
 * power batteries support (AA)
+* Mobile Phone with NFC reader
 
-![screenshot](Screenshots/hardware-components.PNG)
+![screenshot](Screenshots/hardware-components/Components.PNG)
 
 ## How to use the applications
 1. Download the repository files (project) from the download section or clone this project by typing in the bash the following command:
 
-    git clone https://github.com/Drive-Labs/smarthotel-parfait.git
-2. Open it in Intellij IDEA and download the libraries used (montioned above) and add it in the project.
+	```
+	git clone https://github.com/Drive-Labs/smartHotel-itea3-Parfait.git
+	```
+2. Open it in your favorite IDE and download the libraries used (montioned above) and add it in the project.
 3. Import & execute the SQL queries from the Database folder to the MySQL database.
-4. Run the application :D
+4. Generate the `apk` from the `MoveUp-mobile-app` folder and install the android application on your smartphone.
+5. Run the mobile application
+6. Be sure that all the components (mobile phone, Zigbee server, reservation server) can communicate together in local network (or over Internet)
+7. Be sure that Zigbee communication is enabled at the smart lock level
+8. Open the terminal and type the command :
+	```
+	cd server
+	```
+9. start the Zigbee server by launching the the python scripts using the following commands (using two separate terminals):
+	```
+	python serverII_27-05-19.py
+	python serial_server_09-05-19.py
+	```
 
 ## Screenshots
 
