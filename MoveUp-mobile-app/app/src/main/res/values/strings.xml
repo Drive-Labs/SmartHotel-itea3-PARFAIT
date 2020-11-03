@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">EC Move Up</string>
+
+
+
+    <string name="server_txt">Dati Ricevuti dal Client</string>
+    <string name="ip_blank">ip vide</string>
+    <string name="ip_pattern_incorrect">incorrect ip</string>
+    <string name="port_empty">port vide</string>
+    <string name="port_value_invalid">port invalide</string>
+    <string name="port_not_integer">faut port</string>
+
+    <string name="send_btn">Send</string>
+    <string name="action_settings">Configuration</string>
+    <string name="action_clearDB">Clear DB</string>
+    <string name="action_AddRes">Add Reservation</string>
+    <string name="action_sendClr">Send Clear toSL</string>
+    <string name="action_sendItr">Send Itr toSL</string>
+    <string name="action_lock">Lock Access</string>
+    <string name="service_name">CardEmul</string>
+    <string name="card_title">Access Card</string>
+    <string name="account_number">PIN</string>
+    <string name="sent">SENT</string>
+
+    <string name="intro_message">
+        <![CDATA[
+
+        This is a sample description of  how to use Move Up as NFC card,
+
+        Bring your phone closer to NFC reader.
+
+        ]]>
+    </string>
+</resources>
