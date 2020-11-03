@@ -30,15 +30,17 @@ Our main objective in this project was the design of a scheme / architecture for
 * Provide different security features
 * Resist man-in-the-Middle attack & Impresonation Attack
 * Ensure the perfect forward secrecy
-*... and more
+* ... and more
 
 ## The main developed applications
 
 ### mobile application
+the main features of the mobile application are :
 1. Gives a portable solution and H24 work to gain this understanding.
 2. ....
 
 ### Reservation System
+the main features of the reservation system are :
 1. Gives a portable solution and H24 work to gain this understanding.
 2. ....
 
@@ -94,20 +96,19 @@ Our main objective in this project was the design of a scheme / architecture for
 	```
 
 ## Screenshots
+In what follows, we show some screenshots of our smart home system :
+
+### Test environment
+![Screenshots](Screenshots/environement/test-env.png img home"><br/>)
 
 ### Reservation
-![Screenshots](Screenshots/reservation/reservation.png img home"><br/>
+![Screenshots](Screenshots/reservation/reservation.png)
 
 ### Access Control
-![screenshot](Screenshots/authentication/trac.PNG)
-![screenshot](Screenshots/traceability/trac-question/trac8.PNG)
-
-### Open Smart Lock
-![Screenshots](Screenshots/practical-work/c3.PNG)
-![screenshot](Screenshots/c6.PNG)
+![screenshot](Screenshots/authentication/code-pin.PNG)
 
 ### Log
-![img guide](Screenshots/Log/log1.PNG)
+![img guide](Screenshots/Log/database-log.PNG)
 
 ## Contributing
 If you want to contribute to this project and make it better with new ideas, your pull request is very welcomed.
