@@ -99,7 +99,7 @@ the main features of the reservation system are :
 In what follows, we show some screenshots of our smart home system :
 
 ### Test environment
-![Screenshots](Screenshots/environement/test-env.png img home"><br/>)
+![Screenshots](Screenshots/environement/test-env.png)
 
 ### Reservation
 ![Screenshots](Screenshots/reservation/reservation.png)
