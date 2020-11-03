@@ -4,8 +4,8 @@ In this project, we propose a pototype of an implementation of a smart hotel use
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 
-## Description of the project PARFAIT (Personal dAta pRotection FrAmework for IoT)
-PARFAIT project’s main goal is to develop a platform for protecting personal data in Internet of Things applications which will be tested with 2 use-cases. Another goal of the project is to decrease complexity of integrating and deploying services in today’s Internet of Things technology by providing interoperable software libraries, tools and SDK elements.
+## Description of the project PARFAIT
+PARFAIT (Personal dAta pRotection FrAmework for IoT) project’s main goal is to develop a platform for protecting personal data in Internet of Things applications which will be tested with 2 use-cases. Another goal of the project is to decrease complexity of integrating and deploying services in today’s Internet of Things technology by providing interoperable software libraries, tools and SDK elements.
 
 Interoperability, along with security and privacy of personal data, are the two most important limitations for the growth of the Internet of Things (IoT) market. Interoperability increases the complexity of service production processes and the cost of production. Lack of security and trust for the protection of privacy puts a barrier between service providers and consumers. To solve these issues, PARFAIT aims to develop a platform for protecting personal data in IoT applications and to reduce the complexity of integrating and deploying services in today’s IoT technology by providing interoperable software libraries, tools and SDK elements.
 
@@ -17,9 +17,11 @@ equipped with electronic locks. Electronic cards used to grand access need to be
 initialized for each client, which depends on a human operator. The next generation for these locks is Smart/Connected locks, which are able to interact with the local IT systems and communicate with their environment.
 Our main objective in this project was the design of a scheme / architecture for access control based on the context with specific security policies in order to provide digital keys / Tokens in order to grant / deny access for end users using their smartphones. A overview about the main excepted goals in this project regarding the smart hotel use case is given the following picture :
 
-![img connection](Screenshots/use-case-smart-hotel.PNG)
+![img connection](Screenshots/architecture/use-case-smart-hotel.PNG)
 
 ## The proposed Architecture
+
+![img connection](Screenshots/architecture/use-case-smart-hotel.PNG)
 
 ## Smart hotel Features :heavy_check_mark:
 * Easy reservation and access to rooms using your personal smartphone.
@@ -34,21 +36,15 @@ Our main objective in this project was the design of a scheme / architecture for
 
 ### mobile application
 1. Gives a portable solution and H24 work to gain this understanding.
-2. Automate manual stains.
-3. Archive students essays at the time of TP.
-4. Help the teacher to evaluate the student.
+2. ....
 
 ### Reservation System
 1. Gives a portable solution and H24 work to gain this understanding.
-2. Automate manual stains.
-3. Archive students essays at the time of TP.
-4. Help the teacher to evaluate the student.
+2. ....
 
 ### Smart Lock & Gateway (smart hotel level)
 1. Gives a portable solution and H24 work to gain this understanding.
 2. Automate manual stains.
-3. Archive students essays at the time of TP.
-4. Help the teacher to evaluate the student.
 
 ## Libraries used
 * NFC library for Arduino
@@ -72,7 +68,7 @@ Our main objective in this project was the design of a scheme / architecture for
 * Electric Smart Lock
 * power batteries support (AA)
 
-![screenshot](Screenshots/trac.PNG)
+![screenshot](Screenshots/hardware-components.PNG)
 
 ## How to use the applications
 1. Download the repository files (project) from the download section or clone this project by typing in the bash the following command:
