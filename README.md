@@ -1,5 +1,5 @@
-# Smarthotel-PARFAIT
-In this project, we propose a pototype of an implementation of a smart hotel use case as part of the European project PARFAT. The project has been developed by the Drive Laboratory and University of Burgundy as a partner of the project PARFAIT.
+# SmartHotel-PARFAIT
+In this project, we propose a pototype of an implementation of a smart hotel use case as part of the European project PARFAIT. The project has been developed by the Drive Laboratory and University of Burgundy as a partner of the project PARFAIT.
 
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -30,9 +30,9 @@ The following figure give an idea of the system architecture:
 ## Smart hotel Features :heavy_check_mark:
 * Easy reservation and access to rooms using your personal smartphone.
 * The system is lightweight and ensures a secure communication among system entities
-* Resist against known attack
+* Resist against known attacks
 * Provide different security features
-* Resist man-in-the-Middle attack & Impresonation Attack
+* Resist man-in-the-Middle attack & Impresonation attack
 * Ensure the perfect forward secrecy
 * ... and more
 
